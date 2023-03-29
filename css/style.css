@@ -15,7 +15,45 @@ body {
 	font-family: "Outfit", sans-serif;
 }
 
-.wrapper {
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+}
+
+.card__img {
+	max-width: 100%;
+	padding: 15px;
+}
+
+.card__img img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.card__body {
+	font-size: 15px;
+	text-align: center;
+}
+
+.card__title {
+	padding: 0 20px;
+}
+
+.card__text {
+	padding: 15px 25px 35px 25px;
+}
+
+/* .wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,7 +87,7 @@ img {
 
 .card__text {
 	padding: 15px 25px 35px 25px;
-}
+} */
 
 .attribution {
 	font-size: 11px;
